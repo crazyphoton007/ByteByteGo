@@ -24,4 +24,4 @@ if __name__ == '__main__':
     print(result)
 
 
-# Time Complexity: 
+# Time Complexity:  O(n)
