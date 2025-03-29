@@ -9,7 +9,7 @@ def is_palindrome(s):
         while left < right and not s[right].isalnum():
             right -= 1
 
-        if s[left] != s[right]:
+        if s[left].lower != s[right].lower:
             return False
         
         left  += 1
