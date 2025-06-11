@@ -19,6 +19,7 @@ def largest_container(heights):
     left = 0
     right = len(heights) - 1
     while (left < right):
+        water = min(heights[left], heights[right]) * (right - left)
         water = max(max_water, water)
 
         if (heights[left] < heights[right]):
