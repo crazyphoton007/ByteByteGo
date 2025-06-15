@@ -1,6 +1,5 @@
 # dark moon
 
-from operator import __not__
 
 
 def lastWord(s):
